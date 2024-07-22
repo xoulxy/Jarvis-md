@@ -25,7 +25,7 @@ module.exports = {
   READ_MSG: toBool(process.env.READ_MSG || "false"),
   BRANCH: "main",
   LINKPREVIEW: toBool(process.env.LINKPREVIEW || "false"),
-  CONTEXTINFO: process.env.CONTEXTINFO || `{"title": "𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️", "body": "ᴀᴡᴇꜱᴏᴍᴇ 🍉", "thumbnailUrl": "https://i.imgur.com/CoAcgTb.jpeg", "renderLargerThumbnail": true, "mediaType": 1, "mediaUrl": "", "sourceUrl": "https://www.instagram.com/xoulxy", "showAdAttribution": true}`,
+  CONTEXTINFO: process.env.CONTEXTINFO || `{"title": "𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️", "body": "𝐀ᴡᴇꜱᴏᴍᴇ 🍉", "thumbnailUrl": "https://i.imgur.com/CoAcgTb.jpeg", "renderLargerThumbnail": true, "mediaType": 1, "mediaUrl": "", "sourceUrl": "https://www.instagram.com/xoulxy", "showAdAttribution": true}`,
   KOYEB_API: process.env.KOYEB_API,
   BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
   TGTOKEN: "bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4",
