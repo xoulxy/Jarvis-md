@@ -305,7 +305,7 @@ System({
           thumbnail: img,
           mediaType: 1,
           mediaUrl: '',
-          sourceUrl: 'https://github.com/Loki-Xer/Jarvis-md',
+          sourceUrl: 'https://www.instagram.com/xoulxy',
           showAdAttribution: true,
           renderLargerThumbnail: true
         }
