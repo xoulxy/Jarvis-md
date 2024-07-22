@@ -35,7 +35,7 @@ System({
     dontAddCommandList: true,
 }, async (message, match) => {
     let [date, time] = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }).split(",");
-    let menu = `╭━━━〔 ${BOT_INFO.split(';')[0]} ⁩〕━━━···▸\n┃╭──────────────···▸\n✧│ *ᴏᴡɴᴇʀ :*  ${BOT_INFO.split(';')[1]}\n✧│ *ᴜsᴇʀ :* ${message.pushName.replace(/[\r\n]+/gm, "")}\n✧│ *ᴘʟᴜɢɪɴs :* ${plugins.commands.length}\n✧│ *ᴅᴀᴛᴇ :* ${date}\n✧│ *ᴛɪᴍᴇ :* ${time}\n✧│ *ᴜᴘᴛɪᴍᴇ :* ${clockString(uptime())}\n✧│ *ᴠᴇʀsɪᴏɴ :* ᴠ${version}\n┃╰──────────────···▸\n╰━━━━━━━━━━━━━━━···▸\n\n\n${await readMore()}\n╭━━━━━━━━━━━━━━━···▸\n╽`;
+    let menu = `╭━━━〔 ${BOT_INFO.split(';')[0]} ⁩〕━━━···▸\n┃╭──────────────···▸\n✧│ *𝐎ᴡɴᴇʀ :*  ${BOT_INFO.split(';')[1]}\n✧│ *𝐔sᴇʀ :* ${message.pushName.replace(/[\r\n]+/gm, "")}\n✧│ *𝐏ʟᴜɢɪɴs :* ${plugins.commands.length}\n✧│ *𝐃ᴀᴛᴇ :* ${date}\n✧│ *𝐓ɪᴍᴇ :* ${time}\n✧│ *𝐔ᴘᴛɪᴍᴇ :* ${clockString(uptime())}\n✧│ *𝐕ᴇʀsɪᴏɴ :* ᴠ${version}\n┃╰──────────────···▸\n╰━━━━━━━━━━━━━━━···▸\n\n\n${await readMore()}\n╭━━━━━━━━━━━━━━━···▸\n╽`;
     let cmnd = [], category = [];
     for (const command of plugins.commands) {
         const cmd = command.pattern?.toString().match(/(\W*)([A-Za-züşiğ öç1234567890]*)/)?.[2];
@@ -64,11 +64,11 @@ System({
             } else {
                 ptrn = cmd.charAt(0).toUpperCase() + cmd.slice(1).toLowerCase();
             }
-            menu += `\n┃  │ ‣ ${ptrn}`;
+            menu += `\n┃  │ ☆ ${ptrn}`;
         }
         menu += `\n┃  ╰─────────────···▸`;
     }
-    menu += ` ╰━━━━━━━━━━━┈⊷\nmade with 🤍`;
+    menu += ` ╰━━━━━━━━━━━┈⊷\n𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️`;
     const url = BOT_INFO.split(';')[2];
     if (isUrl(url)) await message.sendFromUrl(url, { caption: menu, gifPlayback: true });
     else await message.send(menu);
@@ -81,7 +81,7 @@ System({
     type: "info"
 }, async (message, match) => {
     if (match === "cmd") return;
-    let menu = "\nمصنوع من🤍\n\n";
+    let menu = "\n𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️\n\n";
     let cmnd = plugins.commands.filter(command => !command.dontAddCommandList && command.pattern);
     cmnd = cmnd.map(command => ({
         cmd: command.pattern.toString().match(/(\W*)([A-Za-züşiğ öç1234567890]*)/)[2],
