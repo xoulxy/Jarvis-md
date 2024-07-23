@@ -84,12 +84,12 @@ System({
         for (let key of participants) {
             const jid = parsedJid(key.id);
             await message.client.groupParticipantsUpdate(message.jid, jid, "remove");
-            await message.send(`_@${jid[0].split("@")[0]} kicked successfully_`, { mentions: jid });
+            await message.send(`_@${jid[0].split("@")[0]} Pundachiye kicked successfully_`, { mentions: jid });
         }
     } else {
         const jid = parsedJid(match);
         await message.client.groupParticipantsUpdate(message.jid, jid, "remove");
-        await message.send(`_@${jid[0].split("@")[0]} kicked successfully_`, { mentions: jid, });
+        await message.send(`_@${jid[0].split("@")[0]} Pundachiye kicked successfully_`, { mentions: jid, });
     }
 });
 
@@ -176,7 +176,7 @@ System({
 });
 
 System({
-    pattern: "tag",
+    pattern: "come",
     fromMe: true,
     desc: "mention all users in the group",
     type: "group",
