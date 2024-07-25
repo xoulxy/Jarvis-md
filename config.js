@@ -17,7 +17,7 @@ module.exports = {
   AUDIO_DATA: process.env.AUDIO_DATA || '𝑺 𝜟 𝜝 𝜟 𝑅 𝛪 /// 🌩️;🌝💗🕊️൱᭄റം ഏതꪆ͢യꪆലเ๐ ൱᭄ൖൽ കറുപ്പ് ത͢ന്നെ...!!🌚🖤🍃;https://i.imgur.com/CoAcgTb.jpeg',
   WARN_COUNT: process.env.WARN_COUNT || '3',
   ALIVE_DATA : process.env.ALIVE_DATA || "_*𝐇ᴇʏʏ &sender 𝐈ᴍ 𝐒ᴛɪʟʟ 𝐀ʟɪᴠᴇ 🫀🫂*_",
-  SESSION_ID: process.env.SESSION_ID || 'Jarvis_138a_e52d_b269_da60_1c94_a2ab_34ff_e101',
+  SESSION_ID: process.env.SESSION_ID || 'Jarvis_2d64_66bf_0029_53e6_2cae_220a_9465_1edf',
   LANG: process.env.LANG || 'EN',
   ELEVENLABS: process.env.ELEVENLABS,
   HANDLERS: process.env.HANDLER  || 'null',
